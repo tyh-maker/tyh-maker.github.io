@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>科电智贸</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1; /* 确保图片不会覆盖导航栏 */
+        }
+        .nav {
+            width: 100%;
+            display: flex;
+            justify-content: center; /* 居中对齐 */
+            background-color: rgba(244, 103, 9, 0.896);
+            padding: 10px 0; /* 添加一些内边距 */
+            box-sizing: border-box; /* 确保padding不会增加元素的实际宽度 */
+            position: relative; /* 确保背景色能够正确显示 */
+        }
+        .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .nav ul li {
+            margin: 0 25px; /* 增加了左右外边距以扩大菜单项间的距离 */
+        }
+        .nav ul li a {
+            color: white;
+            text-decoration: none;
+            line-height: 50px; /* 根据实际情况调整，确保文本垂直居中 */
+            display: block;
+        }
+        .nav ul li a:hover {
+        color: #040404; /* 悬停时的颜色，这里使用了tomato色作为例子 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 图片位于左上角 -->
+    <img src="图片1(1).png" alt="Logo" style="width:auto;height:auto;">
+    
+    <!-- 导航栏 -->
+    <div class="nav">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">登录</a></li>
+            <li><a href="file:///D:/HTML&CSS/%E4%BA%92%E8%81%94%E7%BD%91%E6%AF%94%E8%B5%9B/%E4%BA%A7%E5%93%81%E4%B8%8E%E6%9C%8D%E5%8A%A1.html">服务与产品</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">客户评价</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </div>
+
+    <!-- 示例内容 -->
+    <div style="padding:15px 15px 2500px; font-size:30px; margin-top:30px;">
+        <p><strong></strong></p>
+        <p></p>
+    </div>
+</body>
+</html>
